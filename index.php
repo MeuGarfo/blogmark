@@ -25,6 +25,9 @@ function gerarAsset($nomeDoArquivo){
 }
 
 function gerarHtml($nomeDoArquivo){
+    if($nomeDoArquivo=='vida%20longa.html'){
+        $nomeDoArquivo='vida_longa.html';
+    }
     require 'inc/slug.php';
     $nomeDoArquivo=urldecode($nomeDoArquivo);
     $nomeDoArquivo=@explode('.html',$nomeDoArquivo)[0];
