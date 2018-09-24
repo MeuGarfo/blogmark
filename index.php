@@ -25,18 +25,24 @@ function gerarAsset($nomeDoArquivo){
 }
 
 function gerarHtml($nomeDoArquivo){
+    require 'inc/slug.php';
     $nomeDoArquivo=urldecode($nomeDoArquivo);
     $nomeDoArquivo=@explode('.html',$nomeDoArquivo)[0];
     require 'vendor/autoload.php';
     $ParsedownObj = new Parsedown();
-    $nomeDoArquivo=$nomeDoArquivo.'.md';
+    $nomeDoArquivo='mark/'.$nomeDoArquivo.'.md';
     if(!file_exists($nomeDoArquivo)){
-        $nomeDoArquivo='404.md';
+        $nomeDoArquivo='mark/404.md';
     }
     $filenameStr=$nomeDoArquivo;
     $markdownStr=file_get_contents($filenameStr);
     $content=$ParsedownObj->text($markdownStr);
-    $title=explode(PHP_EOL,$content)[0];
-    $title=strip_tags($title);
+    $content=str_replace("vida_longa.html", "vida longa.html", $content);
+    if($nomeDoArquivo=='mark/index.md'){
+        $title='Hacker Gaucho';
+    }else{
+        $title=explode(PHP_EOL,$content)[0];
+        $title=strip_tags($title);
+    }
     require 'template.php';
 }
