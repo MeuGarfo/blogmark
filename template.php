@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title><?php print @$title; ?></title>
 <script src="asset/script.js?0.0.1"></script>
-<link rel="stylesheet" href="asset/style.css?0.0.4">
+<link rel="stylesheet" href="asset/style.css?0.1.0">
 <link rel="shortcut icon" href="asset/logo180.png" type="image/x-icon" />
 </head>
 <body>
