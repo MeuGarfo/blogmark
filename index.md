@@ -1,2 +1,0 @@
-#hacker gaucho
-olá mundo
