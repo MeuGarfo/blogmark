@@ -14,7 +14,10 @@ git pull origin master
 rm asset/*.*
 rm *.html
 wget -r --no-parent --html-extension --no-check-certificate --convert-links "http://hg.local"
+wget -r --no-parent --html-extension --no-check-certificate --convert-links "http://hg.local/404.html"
 mv hg.local/* $PWD
+rm -rf hg.local
 git add -A
 git commit -m "$(git status --porcelain)"
 git push origin master
+cd ..
