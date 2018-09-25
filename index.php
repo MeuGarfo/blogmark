@@ -18,17 +18,6 @@ function gerarAsset($nomeDoArquivo){
     $nomeDoArquivo='asset/'.$nomeDoArquivo;
     $nomeDoArquivo=explode('?',$nomeDoArquivo)[0];
     $ext=pathinfo($nomeDoArquivo,PATHINFO_EXTENSION);
-   /*switch($ext){
-        case 'css':
-        header("Content-type: text/css; charset=utf-8");
-        break;
-        case 'js':
-        header("Content-type: application/javascript; charset=utf-8");
-        break;
-        case 'png':
-        header("Content-type: image/png; charset=utf-8");
-        break;
-    }*/
     if(file_exists($nomeDoArquivo)){
         print file_get_contents($nomeDoArquivo);
     }else{
@@ -38,7 +27,7 @@ function gerarAsset($nomeDoArquivo){
 
 function gerarHtml($nomeDoArquivo){
     if($nomeDoArquivo=='vida%20longa.html'){
-        $nomeDoArquivo='vida_longa.html';
+        $nomeDoArquivo='vidalonga.html';
     }
     require 'inc/slug.php';
     $nomeDoArquivo=urldecode($nomeDoArquivo);
@@ -52,7 +41,6 @@ function gerarHtml($nomeDoArquivo){
     $filenameStr=$nomeDoArquivo;
     $markdownStr=file_get_contents($filenameStr);
     $content=$ParsedownObj->text($markdownStr);
-    $content=str_replace("vida_longa.html", "vida longa.html", $content);
     if($nomeDoArquivo=='mark/index.md'){
         $title='Hacker Gaucho';
     }else{
