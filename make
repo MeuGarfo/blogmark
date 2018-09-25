@@ -16,7 +16,7 @@ rm -rf asset
 wget -erobots=off -r --no-parent --html-extension --no-check-certificate "http://hg.local"
 wget -erobots=off -r --no-parent --html-extension --no-check-certificate "http://hg.local/404.html"
 mv hg.local/* $PWD
-rm -rf hg.local
+rm -r hg.local
 git add -A
 git commit -m "$(git status --porcelain)"
 git push origin master
