@@ -15,8 +15,8 @@ rm *.html
 rm -rf asset
 wget -erobots=off -r --no-parent --html-extension --no-check-certificate --convert-links "http://hg.local"
 wget -erobots=off -r --no-parent --html-extension --no-check-certificate --convert-links "http://hg.local/404.html"
-#wget http://hg.local/asset/style.css -O asset/style.css
-#wget http://hg.local/asset/script.js -O asset/script.js
+wget "http://hg.local/asset/style.css" -o asset/style.css
+wget "http://hg.local/asset/script.js" -o asset/script.js
 mv hg.local/* $PWD
 rm -rf hg.local
 git add -A
