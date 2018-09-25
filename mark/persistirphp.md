@@ -27,7 +27,7 @@ if(file_exists($nomeDoArquivo)){
 ```
 
 #### Banco de dados
-Se você tem um grande volume de dados um banco de dados pode ser de grande ajuda. Existem vários sistemas de bancos de dados diferentes, o mais utilizado no PHP é o MySQL.
+Se você tem um grande volume de dados um banco de dados pode ser de grande ajuda. O PHP suporta vários sistemas de bancos de dados diferentes sendo que o [MySQL](https://www.mysql.com/) é o mais utilizado.
 
 #### Ir para
 - [Página inicial](.)
