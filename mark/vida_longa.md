@@ -15,6 +15,6 @@ Logo após o Yahoo! GeoCities sair do ar em 2009 o GEOCITIES.ws nasceu e continu
 
 Após mais de 8 anos o site continua oferecendo seus serviços gratuitamente com qualidade e sem colocar propaganda nas páginas. Tudo isso contribuiu para a escolha do GEOCITIES.ws como mirror para o Hacker Gaucho.
 
-## Ir para
-- [Blog](blog.html)
+#### Ir para
 - [Página inicial](.)
+- [Blog](blog.html)

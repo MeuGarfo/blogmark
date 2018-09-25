@@ -1,18 +1,16 @@
 ## Blog em PHP e Markdown
 *24set2018*
 
-Conforme [escrevi anteriormente](vida_longa.html) mudei a hospedagem do Hacker Gaucho para o Github Pages. 
+Conforme [escrevi anteriormente](vida_longa.html) mudei a hospedagem do Hacker Gaucho para o Github Pages. Já que não me interesso por Jekyll nem por Ruby resolvi escrever em PHP um sistema de geração de páginas estaticas a partir do markdown.
 
-Como não me interesso por Jekyll nem por Ruby resolvei escrever em PHP um sistema de geração de páginas estaticas a partir do markdown.
-![BlogMark](/asset/blogmark.png)
+![Imagem comparando o blogmark com a versão anterior do Hacker Gaucho](/asset/blogmark.png)
 
 ## Convertendo o markdown para HTML
-Como conversor para markdown escolhi a biblioteca [erusev/parsedown](https://packagist.org/packages/erusev/parsedown).
-
-A conversão para HTML é feita apenas on-the-fly, por isso criei um script em shell script que baixa através do wget o HTML gerado.
+Para converter o markdown para HTML escolhi a biblioteca [erusev/parsedown](https://packagist.org/packages/erusev/parsedown). A conversão para HTML é feita apenas on-the-fly, por isso criei um shell script para baixar através do wget o HTML gerado.
 
 ## Publicando no Github
-Infelzimente o Github ainda não roda PHP, por isso tive de usar um repositório adicional apenas para os [arquivos estáticos](https://github.com/hackergaucho/hackergaucho.github.io)
+Sabendo que o Github não roda PHP separei o blog em dois repositórios: Um para o [código PHP](https://github.com/hackergaucho/blogmark) e outro para os [arquivos estáticos](https://github.com/hackergaucho/hackergaucho.github.io). O repositório dos arquivos estáticos serviu como base para o [mirror no Geocities](http://geocities.ws/hackergaucho).
 
-## Código fonte
-O código fonte do blog está disponível no endereço https://github.com/hackergaucho/blogmark 
+#### Ir para
+- [Página inicial](.)
+- [Blog](blog.html)

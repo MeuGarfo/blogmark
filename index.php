@@ -7,7 +7,7 @@ $segment=segment();
 if(@$segment[1]=='/'){
     gerarHtml('index');
 }elseif(@$segment[1]=='asset'){
-    $asset=@$segment[2];
+    $asset=@$segment[3];
     gerarAsset($asset);
 }else{
     gerarHtml(@$segment[1]);
@@ -15,8 +15,20 @@ if(@$segment[1]=='/'){
 
 function gerarAsset($nomeDoArquivo){
     $nomeDoArquivo=urldecode($nomeDoArquivo);
-    $nomeDoArquivo=@explode('?',$nomeDoArquivo)[0];
     $nomeDoArquivo='asset/'.$nomeDoArquivo;
+    $nomeDoArquivo=explode('?',$nomeDoArquivo)[0];
+    $ext=pathinfo($nomeDoArquivo,PATHINFO_EXTENSION);
+    switch($ext){
+        case 'css':
+        header("Content-type: text/css; charset=utf-8");
+        break;
+        case 'js':
+        header("Content-type: application/javascript; charset=utf-8");
+        break;
+        case 'png':
+        header("Content-type: image/png; charset=utf-8");
+        break;
+    }
     if(file_exists($nomeDoArquivo)){
         print file_get_contents($nomeDoArquivo);
     }else{
