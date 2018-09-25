@@ -3,7 +3,7 @@
 
 Conforme [escrevi anteriormente](vida_longa.html) mudei a hospedagem do Hacker Gaucho para o Github Pages. Já que não me interesso por Jekyll nem por Ruby resolvi escrever em PHP um sistema de geração de páginas estaticas a partir do markdown.
 
-![Imagem comparando o blogmark com a versão anterior do Hacker Gaucho](/asset/blogmark.png)
+![Imagem comparando o blogmark com a versão anterior do Hacker Gaucho](asset/blogmark.png)
 
 ## Convertendo o markdown para HTML
 Para converter o markdown para HTML escolhi a biblioteca [erusev/parsedown](https://packagist.org/packages/erusev/parsedown). A conversão para HTML é feita apenas on-the-fly, por isso criei um shell script para baixar através do wget o HTML gerado.
