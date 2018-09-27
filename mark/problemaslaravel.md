@@ -3,7 +3,7 @@
 
 > Não existe bala de prata para a web.
 
-Nunca fui fã de frameworks ou de CMSs, acho que o código deles geralmente é muito engessado, pouco documentado e extenso demais quando comparado a uma biblioteca standalone. 
+Nunca fui fã de frameworks ou de CMSs, acho que o código deles muito engessado, pouco documentado e extenso demais quando comparado a uma biblioteca standalone. 
 
 Hoje tive dois problemas ao tentar rodar o Angular e o Vue no Laravel:
 1. Tanto o Angular quanto o Vue não rodaram no modo template pois a sintaxe deles entrou em conflito com a sintaxe do Blade
