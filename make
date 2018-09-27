@@ -15,7 +15,6 @@ rm *.html
 rm -rf asset
 wget -erobots=off -r --no-parent --html-extension --no-check-certificate "http://hg.local"
 wget -erobots=off -r --no-parent --html-extension --no-check-certificate "http://hg.local/404.html"
-wget -erobots=off -r --no-parent --html-extension --no-check-certificate "http://hg.local/vida%20longa.html"
 mv hg.local/* $PWD
 rm -r hg.local
 git add -A
