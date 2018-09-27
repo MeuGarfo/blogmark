@@ -74,14 +74,13 @@ h1{
 }
 hr{
     border:0;
-    border-bottom:0.1em dotted navy;
+    border-bottom:0.1em dotted black;
 }
 img{
     display:block;
     margin:0 auto;
     max-width:100%;
 }
-small{
-    color:navy;
-    font-size:0.75em;
+i,small{
+    color:gray;
 }
