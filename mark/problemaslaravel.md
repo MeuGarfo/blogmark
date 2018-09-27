@@ -14,7 +14,7 @@ A solução do segundo problema no fim era simples: Bastou atualizar o Node.js p
 
 Antes disso já tinha tido um problema semelhante ao tentar instalar a última versão do Laravel no PHP 7.1. Na ocasião o Laravel também não emitiu qualquer mensagem alertando para a incompatibildiade do framework com a versão do PHP disponível na máquina.
 
-De que adianta usar um framework gigantesco cheio de ferramentas se ele morre sem dar sinal de vida e te faz adicionar bibliotecas mais simples e intuitivas para conseguir se virar?
+De que adianta usar um framework gigantesco cheio de ferramentas se ele morre se por nada ele deixa de te dar sinal de vida e fica te forçando a adicionar bibliotecas mais simples e intuitivas para conseguir se virar?
 
 #### Ir para
 - [Página inicial](.)
