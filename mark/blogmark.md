@@ -1,6 +1,8 @@
 ## Blog em PHP e Markdown
 *24set2018*
 
+> Mais vale um na mão do que dois no sutiã
+
 Conforme [escrevi anteriormente](vidalonga.html) mudei a hospedagem do Hacker Gaucho para o Github Pages. Como não curto Jekyll nem Ruby resolvi escrever em PHP um sistema de geração de páginas estáticas a partir do markdown.
 
 ![Imagem comparando o blogmark com a versão anterior do Hacker Gaucho](asset/blogmark.png)
