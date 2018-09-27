@@ -1,7 +1,7 @@
 ## Problemas com o Laravel
 *26set2018*
 
-> Não existe bala de prata.
+> Não existe bala de prata para a web.
 
 Nunca fui fã de frameworks ou de CMSs, acho que o código deles geralmente é muito engessado, pouco documentado e extenso demais quando comparado a uma biblioteca standalone. 
 
