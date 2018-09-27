@@ -13,7 +13,6 @@ git init && git remote add origin git@github.com:hackergaucho/hackergaucho.githu
 git pull origin master
 rm *.html
 rm -rf asset
-wget -erobots=off -r --no-parent --html-extension --no-check-certificate "http://hg.local"
 wget -erobots=off -r --no-parent --html-extension --no-check-certificate "http://hg.local/404.html"
 mv hg.local/* $PWD
 rm -r hg.local
