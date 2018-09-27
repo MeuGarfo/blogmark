@@ -1,7 +1,9 @@
 ## Vida longa ao texto puro
 *21set2018*
 
-A simplicidade é o último grau de sofisticação. Existe uma maneira mais simples de colocar um site no ar do que usando um editor de texto como o GNU nano e atualizando o site via Git ou FTP? Creio que não.
+> A simplicidade é o último grau de sofisticação. 
+
+Existe uma maneira mais simples de colocar um site no ar do que usando um editor de texto como o GNU nano e atualizando o site via Git ou FTP? Creio que não.
 
 O Hacker Gaucho saiu do Sapo Blogs, a partir de agora o site está hospedado no Github Pages e no GEOCITIES.ws.
 
