@@ -1,7 +1,6 @@
 ## Como persistir dados no servidor usando PHP
 *25set2018*
 
-### O que é persistir
 Persisistir é [sinônimo](https://www.sinonimos.com.br/persistir/) de permanecer, conservar-se, manter-se. Ao persistir os dados com PHP eles permanecerão no disco do servidor mesmo após o usuário que gerou os dados ter deixado o site.
 
 ### Como persisitir
