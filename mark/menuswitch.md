@@ -1,6 +1,6 @@
 ## Menu switch em Shell Script
 
-Esse é o script de menu que criei para uma [versão antiga](https://github.com/MeuGarfo/blog) do Hacker Gaucho. Ele basicamente exibe um menu de opções e recebe parametros via linha de comando. Ele não chega nem perto nível do [Artisan](https://laravel.com/docs/5.7/artisan) mas cumpre bem sua função.
+Esse é o script de menu que criei para uma [versão antiga](https://github.com/MeuGarfo/blog) do Hacker Gaucho. Ele basicamente exibe um menu de opções e recebe parametros via linha de comando. Sei que não é um [Artisan](https://laravel.com/docs/5.7/artisan) mas ele cumpre bem sua função.
 
 
 ```
