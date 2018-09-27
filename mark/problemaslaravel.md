@@ -3,7 +3,7 @@
 
 > Não existe bala de prata.
 
-Nunca fui fã de frameworks ou de CMSs. Acho que o código fonte deles geralmente é muito engessado, pouco documentado e extenso demais quando comparado a uma bibliotecas standalone. 
+Nunca fui fã de frameworks ou de CMSs, acho que o código deles geralmente é muito engessado, pouco documentado e extenso demais quando comparado a uma bibliotecas standalone. 
 
 Hoje tive dois problemas para rodar o Vue no Laravel:
 1. Tentei rodar o Vue no modo template e ele entrou em conflito com a sintaxe do Blade
