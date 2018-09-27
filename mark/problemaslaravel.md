@@ -6,7 +6,7 @@
 Nunca fui fã de frameworks ou de CMSs, acho que o código deles geralmente é muito engessado, pouco documentado e extenso demais quando comparado a uma biblioteca standalone. 
 
 Hoje tive dois problemas ao tentar rodar o Angular e o Vue no Laravel:
-1. Tanto o Angula quanto o Vue não rodar no modo template pois a sintaxe deles entrou em conflito com a sintaxe do Blade
+1. Tanto o Angular quanto o Vue não rodar no modo template pois a sintaxe deles entrou em conflito com a sintaxe do Blade
 1. Tentei rodar a versão do Vue que vem integrada ao Laravel mas não consegui
 
 
