@@ -19,7 +19,7 @@
                 <?php print @$content; ?>
             </div>
             <div class="g3">
-                <h4>Menu</h4>
+                <h4>Ir para</h4>
                 <ul>
                     <li><a href=".">Página inicial</a></li>
                     <li><a href="blog.html">Blog</a></li>
