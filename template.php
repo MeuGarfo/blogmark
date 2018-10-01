@@ -17,17 +17,38 @@
             </div>
             <div class="g6">
                 <?php print @$content; ?>
-            </div>
-            <div class="g3">
-                <h4>Ir para</h4>
-                <ul>
-                    <li><a href=".">Página inicial</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="php.html">PHP</a></li>
-                    <li><a href="shell.html">Shell Script</a></li>
-                </ul>
-            </div>
-        </div><!--r-->
-    </div>
+                <div id="disqus_thread"></div>
+                <script>
+
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://hackergaucho.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+</div>
+<div class="g3">
+    <h4>Ir para</h4>
+    <ul>
+        <li><a href=".">Página inicial</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="php.html">PHP</a></li>
+        <li><a href="shell.html">Shell Script</a></li>
+    </ul>
+</div>
+</div><!--r-->
+</div>
 </body>
 </html>
