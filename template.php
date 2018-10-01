@@ -18,7 +18,6 @@
             </div>
             <div class="g6">
                 <?php print @$content; ?>
-                <div id="disqus_thread"></div>
             </div><!--g6-->
             <div class="g3">
             <h4>Categorias</h4>

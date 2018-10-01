@@ -46,7 +46,7 @@ function gerarHtml($nomeDoArquivo){
         'shell.md'
     ];
     if(!in_array($mdName,$semComentarios)){
-        $content=$content.'<script>Comentários();</script>';
+        $content=$content.'<h4>Deixe seu comentário</h4><div id="disqus_thread"></div><script>Comentários();</script>';
     }
     if($nomeDoArquivo=='md/index.md'){
         $title='Hacker Gaucho';
