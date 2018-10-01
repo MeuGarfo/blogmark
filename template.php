@@ -15,7 +15,6 @@
                     <img src="asset/logo180.png" alt="Hacker Gaucho">
                 </a>
                 <center><a href=".">Página inicial</a></center>
-                </ul>
             </div>
             <div class="g6">
                 <?php print @$content; ?>

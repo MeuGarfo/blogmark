@@ -31,6 +31,7 @@ function gerarHtml($nomeDoArquivo){
     $nomeDoArquivo=@explode('.html',$nomeDoArquivo)[0];
     require 'vendor/autoload.php';
     $ParsedownObj = new Parsedown();
+    $mdName=$nomeDoArquivo.'.md';
     $nomeDoArquivo='md/'.$nomeDoArquivo.'.md';
     if(!file_exists($nomeDoArquivo)){
         $nomeDoArquivo='md/404.md';
@@ -38,6 +39,15 @@ function gerarHtml($nomeDoArquivo){
     $filenameStr=$nomeDoArquivo;
     $mddownStr=file_get_contents($filenameStr);
     $content=$ParsedownObj->text($mddownStr);
+    $semComentarios=[
+        'blog.md',
+        'index.md',
+        'php.md',
+        'shell.md'
+    ];
+    if(!in_array($mdName,$semComentarios)){
+        $content=$content.'<script>Comentários();</script>';
+    }
     if($nomeDoArquivo=='md/index.md'){
         $title='Hacker Gaucho';
     }else{
