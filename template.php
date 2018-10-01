@@ -19,22 +19,12 @@
             </div>
             <div class="g6">
                 <?php print @$content; ?>
-                <div id="disqus_thread"></div>
                 <script>
-                var disqus_config = function () {
-                this.page.url = encodeURIComponent(document.location);
-                this.page.identifier = encodeURIComponent(document.location);
-            };
-    
-            (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document, s = d.createElement('script');
-            s.src = 'https://hackergaucho.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
+var url=document.location;
+var title=document.title;
+var src="https://disqus.com/embed/comments/?base=default&f=hackergaucho&t_i="+url+"&t_u="+url+"&t_e="+title+"&t_d="+title+"&t_t="+title+"&s_o=default";
+document.write('<iframe width="100%" height="400" border="0" src="'+src+'"></iframe>');
+</script>
 </div><!--g6-->
 <div class="g3">
     <h4>Categorias</h4>
