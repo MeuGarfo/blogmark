@@ -23,4 +23,5 @@ cd ..
 git add -A
 git commit -m "$(git status --porcelain)"
 git push origin master
-weex hg
+chmod 600 ~/.sitecopyrc
+sitecopy --update hg -d ftp
