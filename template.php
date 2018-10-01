@@ -14,6 +14,8 @@
                 <a href="." title="Hacker Gaucho">
                     <img src="asset/logo180.png" alt="Hacker Gaucho">
                 </a>
+                <center><a href=".">Página inicial</a></center>
+                </ul>
             </div>
             <div class="g6">
                 <?php print @$content; ?>
@@ -38,11 +40,10 @@
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-</div>
+</div><!--g6-->
 <div class="g3">
-    <h4>Ir para</h4>
+    <h4>Categorias</h4>
     <ul>
-        <li><a href=".">Página inicial</a></li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="php.html">PHP</a></li>
         <li><a href="shell.html">Shell Script</a></li>
