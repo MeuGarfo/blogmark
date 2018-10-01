@@ -31,14 +31,14 @@ function gerarHtml($nomeDoArquivo){
     $nomeDoArquivo=@explode('.html',$nomeDoArquivo)[0];
     require 'vendor/autoload.php';
     $ParsedownObj = new Parsedown();
-    $nomeDoArquivo='mark/'.$nomeDoArquivo.'.md';
+    $nomeDoArquivo='md/'.$nomeDoArquivo.'.md';
     if(!file_exists($nomeDoArquivo)){
-        $nomeDoArquivo='mark/404.md';
+        $nomeDoArquivo='md/404.md';
     }
     $filenameStr=$nomeDoArquivo;
-    $markdownStr=file_get_contents($filenameStr);
-    $content=$ParsedownObj->text($markdownStr);
-    if($nomeDoArquivo=='mark/index.md'){
+    $mddownStr=file_get_contents($filenameStr);
+    $content=$ParsedownObj->text($mddownStr);
+    if($nomeDoArquivo=='md/index.md'){
         $title='Hacker Gaucho';
     }else{
         $title=explode(PHP_EOL,$content)[0];

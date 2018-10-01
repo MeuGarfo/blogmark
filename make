@@ -4,7 +4,7 @@ if [ -z "$1" ]
 	then
 		echo "Baixando HTML..."
 	else
-		nano "mark/$1.md"
+		nano "md/$1.md"
 fi
 rm -rf docs
 mkdir -p docs

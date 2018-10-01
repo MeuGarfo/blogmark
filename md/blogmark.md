@@ -1,4 +1,4 @@
-## Blog em PHP e Markdown
+# Blog em PHP e Markdown
 *24set2018*
 
 > Mais vale um pássaro na mão que dois voando.
@@ -12,7 +12,3 @@ Para converter o markdown para HTML escolhi a biblioteca [erusev/parsedown](http
 
 ## Publicando no Github
 Sabendo que o Github não roda PHP separei o blog em dois repositórios: Um para o [código PHP](https://github.com/hackergaucho/blogmark) e outro para os [arquivos estáticos](https://github.com/hackergaucho/hackergaucho.github.io). O repositório dos arquivos estáticos serviu como base para o [mirror no Geocities](http://geocities.ws/hackergaucho).
-
-#### Ir para
-- [Página inicial](.)
-- [Blog](blog.html)
