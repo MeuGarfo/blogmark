@@ -1,5 +1,6 @@
-# Como se livrar do vício no Facebook
+# Como se livrar do vício do Facebook
 02out2018
+> O lobo perde o pelo mas não perde o vício.
 
 O Facebook usa basicamente duas estratégias para manter você conectado o maior tempo possível: Curtidas e monitoramento de resposta.
 
